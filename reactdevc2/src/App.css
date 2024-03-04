@@ -1,0 +1,23 @@
+
+
+
+@media screen and (min-width: 0)  {
+    .main{
+        width: 90vw;
+        margin: 30px auto;
+    }
+    
+}
+
+@media screen and (min-width: 960px)  {
+    .main{
+        width: 80vw;
+        margin: 30px auto;
+        display: flex;
+        gap: 20px;
+        min-height: 100vh;
+    }
+    .sidebar{
+        width: 40%;
+    }
+}
